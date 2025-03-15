@@ -86,6 +86,9 @@ target/
 # Mypy cache
 .mypy_cache/
 
+# Exclude environment
+.env
+
 # Exclude virtual environment
 .venv/
 
@@ -93,4 +96,4 @@ target/
 /models/
 
 # exclude data from source control by default
-# /data/
+data/
